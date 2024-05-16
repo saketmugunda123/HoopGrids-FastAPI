@@ -1,7 +1,7 @@
 import json
 from fastapi import FastAPI
 
-app = FastAPI()
+app = FastAPI() #creates an instance of the application (appliction is hosted on machine)
 
 with open('superList.json') as fp:
     superList = json.load(fp)
